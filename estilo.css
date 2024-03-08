@@ -1,0 +1,44 @@
+
+.body.paginainicial {
+    background-color: #000; /* Define o fundo como preto */
+    color: #333; /* Define a cor do texto como branco para contrastar */
+    text-align: center; /* Alinhar o conteudo no centro da pagina */
+    font-family: Arial, sans-serif; /* Escolhe uma fonte apropriada */
+}
+
+
+.banda {
+    display: inline-block;
+    margin: 20px;
+    margin-bottom: 20px;
+}
+
+.banda button {
+background-color: #333; /* Cor de fundo do botão */
+color: white; /* Cor do texto do botão */
+border: none; /* Remover borda do botão */
+padding: 10px 20px; /* Espaçamento interno do botão */
+font-size: 16px; /* Tamanho da fonte do botão */
+cursor: pointer; /*Cursor do mouse em forma de mão */
+transition: background-color 0.3s; /* Transição suave de cor de fundo */
+
+}
+
+.banda button:hover {
+background-color: #555; /* Muda a cor de fundo ao passar o mouse */
+
+
+}
+
+.banda img {
+    width: 200px; /* Controla a largura da imagem */
+    height: auto; /* Altura automatica para manter a proporção */
+
+}
+
+h1 {
+    font-size: 36px; /* Tamanho da fonte */
+    color: #008080; /* Cor do título */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra */
+    text-align: center; /* Alinha o título ao centro */
+}
